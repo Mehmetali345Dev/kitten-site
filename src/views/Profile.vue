@@ -29,7 +29,7 @@
         </div>
         <div id="invite">
           <a
-            href="https://astro-bot.space/invite"
+            href="https://discord.com/oauth2/authorize?client_id=782869032939290675&scope=bot&permissions=8"
             target="blank"
             rel="noopener noreferrer"
           >
