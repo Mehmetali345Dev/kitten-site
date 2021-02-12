@@ -1,0 +1,213 @@
+:root {
+  --discord-gray: #2f3136;
+  --discord-cyan: #7787da;
+  --discord-light-cyan: #7180cf;
+  --astro-purple: #BB17EE;
+  --astro-pink: #d06cef;
+}
+
+@font-face {
+  font-family: "Whitney";
+  src: url("../fonts/whitneysemibold.woff");
+}
+
+body {
+  color: white;
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: #000;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+code {
+  background-color: var(--discord-gray);
+  padding: 0.1em 0.4em 0.1em 0.4em;
+  border-radius: 0.4em;
+}
+
+
+/* Particles background */
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0
+}
+#particles-js canvas {
+  display: block;
+  vertical-align: bottom;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease
+}
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+::-webkit-scrollbar-track {
+  border-radius: 0.625em;
+}
+::-webkit-scrollbar-thumb {
+  background: #70009f;
+}
+
+
+
+/* Discord Card (wrapper for the various section) */
+#card {
+  /* Center the div horizontally */
+  margin: auto;
+  width: 70%;
+  /* Content */
+  background: var(--discord-cyan);
+  border-radius: 1em;
+  text-align: center;
+  height: fit-content;
+}
+/* Animates the different sections when loading */
+#card > div {
+  animation: fadeIn 2s ease forwards;
+}
+
+
+/* Playing / Roles / Note text style */
+.field {
+  text-align: left;
+  font-size: 1.0625em;
+  font-weight: 700;
+}
+/* Content of PLaying / Roles / Note */
+.text {
+  text-align: left;
+  font-size: 1.0625em;
+  font-weight: 400;
+  line-height: 1.75em;
+}
+
+/* Bot tag */
+#botTag {
+  color: var(--discord-cyan);
+  background: white;
+  border: 0.1875em solid white;
+  border-radius: 0.3125em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  margin-left: 0.5em;
+  width: fit-content;
+  top: -0.1875em;
+}
+.botTagVerified {
+  margin-right: -0.5em;
+}
+
+
+#featuresBG {
+  text-align: left;
+  font-size: 2em;
+  padding: 0.8em 0.625em 0.4em 1.2em;
+}
+#featuresBG > a:hover {
+  text-decoration: none;
+  color: var(--astro-purple);
+}
+
+
+/* Fade in for Discord Card */
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 10px;
+  }
+  #card {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  #card {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  html {
+    font-size: 15px;
+  }
+  #card {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  html { font-size: 18px; }
+}
+@media screen and (min-width: 2000px) and (max-width: 2500px) {
+  html { font-size: 20px; }
+}
+@media screen and (min-width: 2501px) and (max-width: 3000px) {
+  html { font-size: 30px; }
+}
+@media screen and (min-width: 3001px) and (max-width: 3500px) {
+  html { font-size: 35px; }
+}
+@media screen and (min-width: 3501px) and (max-width: 4000px) {
+  html { font-size: 40px; }
+}
+@media screen and (min-width: 4001px) and (max-width: 5000px){
+  html { font-size: 50px; }
+}
+@media screen and (min-width: 5001px){
+  html { font-size: 60px; }
+}
