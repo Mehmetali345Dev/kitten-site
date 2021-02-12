@@ -65,7 +65,7 @@
         </div>
         <div class="roles">
           <a
-            href="https://kittenbot.ml/invite"
+            href="https://discord.com/oauth2/authorize?client_id=782869032939290675&scope=bot&permissions=8"
             target="_blank"
             rel="noopener noreferrer"
           >
