@@ -60,7 +60,7 @@
       <div id="profileServers">
         <div id="serverScroller">
           <a
-            href="https://discord.gg/YG38KQs7Fa"
+            href="https://discord.gg/eCcDkBAWMv"
             target="_blank"
             rel="noopener noreferrer"
           >
