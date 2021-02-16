@@ -6,7 +6,7 @@
           <img
             src="../assets/images/kitten.png"
             class="logo"
-            alt="Astro PFP"
+            alt="Kitten"
           />
           <div class="imageOverlay">
             <div class="imageText">PROFİLİ GÖRÜNTÜLE</div>
@@ -75,7 +75,7 @@
             </div>
           </a>
           <a
-            href="https://discord.gg/YG38KQs7Fa"
+            href="https://discord.gg/eCcDkBAWMv"
             target="_blank"
             rel="noopener noreferrer"
           >
