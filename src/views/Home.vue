@@ -65,7 +65,7 @@
         </div>
         <div class="roles">
           <a
-            href="https://discord.com/oauth2/authorize?client_id=782869032939290675&scope=bot&permissions=8"
+            href="https://discord.com/api/oauth2/authorize?client_id=782869032939290675&permissions=8&scope=bot%20applications.commands"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -75,7 +75,7 @@
             </div>
           </a>
           <a
-            href="https://discord.gg/eCcDkBAWMv"
+            href="https://discord.gg/VgSVrGtxbQ"
             target="_blank"
             rel="noopener noreferrer"
           >
